@@ -19,5 +19,8 @@
         <processorPath useClasspath="true" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="gs-xsd2bean" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
 </project>

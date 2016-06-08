@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  ~ Copyright (c) 2016 Goldman Sachs.
+  ~ All rights reserved. This program and the accompanying materials
+  ~ are made available under the terms of the Eclipse Public License v1.0
+  ~ and Eclipse Distribution License v. 1.0 which accompany this distribution.
+  ~ The Eclipse Public License is available at http://www.eclipse.org/legal/epl-v10.html
+  ~ and the Eclipse Distribution License is available at
+  ~ http://www.eclipse.org/org/documents/edl-v10.php.
+  -->
+
+<project
+        xmlns="http://maven.apache.org/POM/4.0.0"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.goldmansachs.xsd2bean</groupId>
+    <artifactId>xsd2beangen</artifactId>
+    <version>1.4.2-SNAPSHOT</version>
+
+    <packaging>pom</packaging>
+
+    <name>Xsd2Bean</name>
+
+    <description>TODO</description>
+
+    <url>https://github.com/goldmansachs/gs-xsd2bean</url>
+
+    <inceptionYear>2016</inceptionYear>
+
+    <!--TODO-->
+    <!--<licenses>TODO</licenses>-->
+
+    <scm>
+        <url>https://github.com/goldmansachs/gs-xsd2bean</url>
+        <connection>scm:git:https://github.com/goldmansachs/gs-xsd2bean.git</connection>
+        <developerConnection>scm:git:https://github.com/goldmansachs/gs-xsd2bean.git</developerConnection>
+    </scm>
+
+    <issueManagement>
+        <system>GitHub</system>
+        <url>https://github.com/goldmansachs/gs-xsd2bean/issues</url>
+    </issueManagement>
+
+    <ciManagement>
+        <system>Travis CI</system>
+        <url>https://travis-ci.org/goldmansachs/gs-xsd2bean</url>
+    </ciManagement>
+
+    <!--<mailingLists>-->
+        <!--<mailingList></mailingList>-->
+    <!--</mailingLists>-->
+
+    <developers>
+        <developer>
+            <name>Mohammad A. Rezaei</name>
+            <email>mohammad.rezaei@gs.com</email>
+        </developer>
+
+        <developer>
+            <name>Craig P. Motlin</name>
+            <email>craig.motlin@gs.com</email>
+        </developer>
+
+        <developer>
+            <name>Donald Raab</name>
+            <email>donald.raab@gs.com</email>
+        </developer>
+    </developers>
+
+    <modules></modules>
+
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+
+        <maven.compiler.source>1.8</maven.compiler.source>
+        <maven.compiler.target>1.8</maven.compiler.target>
+        <maven.compiler.fork>true</maven.compiler.fork>
+        <maven.compiler.verbose>true</maven.compiler.verbose>
+        <maven.compiler.meminitial>2048m</maven.compiler.meminitial>
+        <maven.compiler.maxmem>2048m</maven.compiler.maxmem>
+
+    </properties>
+
+    <dependencyManagement>
+        <dependencies>
+
+        </dependencies>
+    </dependencyManagement>
+
+    <build>
+        <pluginManagement>
+            <plugins>
+
+
+            </plugins>
+        </pluginManagement>
+
+        <plugins>
+
+            <plugin>
+                <artifactId>maven-enforcer-plugin</artifactId>
+            </plugin>
+
+            <plugin>
+                <groupId>org.codehaus.mojo</groupId>
+                <artifactId>versions-maven-plugin</artifactId>
+            </plugin>
+
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-dependency-plugin</artifactId>
+            </plugin>
+
+        </plugins>
+
+    </build>
+
+</project>
