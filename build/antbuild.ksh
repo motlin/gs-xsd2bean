@@ -46,8 +46,5 @@ export ANT_ARGS
 JVM_ARGS="-ms16m -mx2000m -server -XX:MaxPermSize=128m -XX:+UseParallelGC -XX:MaxHeapFreeRatio=20 -XX:MinHeapFreeRatio=10 -XX:CompileThreshold=100"
 export JVM_ARGS
 
-PATH=$ANTBUILD_HOME/build/bin:$PATH
-export PATH
-
 $JDK_HOME/jre/bin/java $JVM_ARGS -classpath $ANT_CLASSPATH $ANT_ARGS org.apache.tools.ant.launch.Launcher -listener org.apache.tools.ant.listener.Log4jListener -f $*
 
